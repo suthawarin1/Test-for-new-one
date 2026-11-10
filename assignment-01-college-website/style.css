@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Tahoma, sans-serif; background: #f5f7fc; color: #172554; }
+header { background: #172554; color: white; padding: 24px; text-align: center; }
+nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 16px; }
+nav a { color: white; text-decoration: none; padding: 8px 12px; }
+nav a:hover, nav a:focus-visible { background: #3b82f6; border-radius: 8px; }
+main { max-width: 900px; min-height: 350px; margin: 32px auto; padding: 32px; background: white; border-radius: 16px; }
+footer { text-align: center; padding: 20px; color: #64748b; }
+@media (max-width: 600px) { main { margin: 16px; padding: 20px; } }
